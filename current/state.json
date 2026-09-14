@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "updated": "2026-09-14",
+  "visibility": "public-safe",
+  "status": "architecture-seed",
+  "focus": [
+    "Define provider-independent personal context ledger",
+    "Design constrained read/write MCP surface",
+    "Establish provenance and promotion rules",
+    "Prepare for daily context maintenance"
+  ],
+  "system": {
+    "github_ledger": true,
+    "mcp_server": false,
+    "read_tools": false,
+    "write_tools": false,
+    "scheduled_maintenance": false
+  },
+  "next": [
+    "Implement MCP server",
+    "Add GitHub adapter",
+    "Add validation and path policy",
+    "Deploy behind authenticated endpoint",
+    "Connect first LLM client",
+    "Add daily maintenance task"
+  ]
+}
